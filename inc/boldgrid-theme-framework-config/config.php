@@ -2,7 +2,7 @@
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Text Domain.
-	$boldgrid_framework_configs['theme_name'] = 'boldgrid-wedge';
+	$boldgrid_framework_configs['theme_name'] = 'boldgrid-reseller';
 
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
@@ -174,8 +174,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Footer Left';
 	$boldgrid_framework_configs['menu']['footer_menus'][] = 'tertiary';
-
-
 
 	// Widget 2.
 	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
