@@ -6,4 +6,4 @@
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BoldGrid Child Theme based on [Wedge https://github.com/BoldGrid/wedge]
+BoldGrid Child Theme based on [Wedge](https://github.com/BoldGrid/wedge)
