@@ -34,8 +34,18 @@
 	.button-primary,
 	input[type="submit"] {
 		border: 2px solid $palette-primary-neutral-color;
-		background: $palette-primary_1;
+		background: $palette-primary_3;
 		color: $palette-primary-neutral-color;
+	}
+	.button-primary:hover,
+	input[type="submit"]:hover,
+	.pure-button:hover,
+	.pure-button:active,
+	.pure-button:focus,
+	.reseller-domainsearch:focus,
+	.reseller-domainsearch:active
+	{
+		background: $palette-primary_3;
 	}
 	a.button,
 	a.button.alt,
@@ -215,11 +225,9 @@
 	/*-----------------------------------------------
 	## Button Hover
 	-----------------------------------------------*/
-	.button-primary:hover,
 	.button-primary:focus,
 	.button-secondary:hover,
 	.button-secondary:focus,
-	input[type="submit"]:hover,
 	input[type="submit"]:focus {
 		border: 2px solid $palette-primary-neutral-color;
 		background: none;
@@ -381,6 +389,7 @@
 	.textarea-wrap textarea,
 	.whmpress button,
 	.whmpress button:hover {
+		color: $palette-primary-neutral-color;
 		background-color: $palette-primary_2 !important;
 	}
 	
