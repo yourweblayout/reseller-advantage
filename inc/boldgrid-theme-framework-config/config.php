@@ -27,7 +27,10 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Add container to call to action widget.
 	$boldgrid_framework_configs['template']['pages']['global']['call-to-action'] = 'container';
-
+	
+	// Remove background image.
+	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_image'] = false;
+	
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'1' => array( '[menu]secondary' ),
