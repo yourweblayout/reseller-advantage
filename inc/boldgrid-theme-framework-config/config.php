@@ -46,9 +46,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// No container is needed on home page for this theme.
 	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = '';
 
-	// Set the Call To Action Widget to be on Home Page Only.
-	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
-
 	// Enable BoldGrid Color Palette System.
 	$boldgrid_framework_configs['customizer-options']['colors']['enabled'] = true;
 
@@ -90,56 +87,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		),
 	);
 
-	// Override Options per Subcategory.
-	switch ( $boldgrid_framework_configs['inspiration']['subcategory_key'] ) {
-		case 'Consulting':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
-			$slogan = 'WE MAKE IT OUR BUSINESS TO HELP YOUR BUSINESS SUCCEED';
-			$tagline = 'There comes a time when every expanding business requires the help of a consulting firm to minimize growing pains. We build organic relationships with all of our clients to ensure custom solutions are met without sacrificing the personality of their businesses.';
-			break;
-		case 'Design':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
-			$slogan = 'MAKE A STATEMENT. ALLOW US TO DESIGN A PRESENCE FOR YOU TODAY';
-			$tagline = 'As neighboring businesses grow, making your presence known becomes more and more crucial everyday. We design pieces that will encourage pedestrian interest in your venue. Take the opportunity to express your business and capitalize on the traffic that it deserves.';
-			break;
-		case 'Fitness':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][4]['default'] = true;
-			$slogan = 'LET US EXPAND YOUR HORIZONS';
-			$tagline = 'Are you ready to make a change? We\'re waiting for you. As a company that prides itself in meeting customer marketing needs, we can ensure that you get what you\'re looking for quickly and for a great price. Don\'t delay getting what you need from a company that cares about its customers.';
-			break;
-		case 'General':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][2]['default'] = true;
-			$slogan = 'GET CONTENT THAT ACTUALLY REFLECTS WHAT YOU DO';
-			$tagline = 'We pride ourselves in employing content writers from every industry. With our services you\'re guaranteed to have content written for you that directly represents the services that your business provides. Contact us today and see what our experts can do for you.';
-			break;
-		case 'Home Repair':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
-			$slogan = 'A MORE BEAUTIFUL HOME AWAITS YOU. GIVE US A CALL TODAY';
-			$tagline = 'We believe that every home is capable of being a dream home, given enough love and commitment, of course. Don\'t waste any more time or money figuring out what that bedroom of yours is missing. Contact us and let us apply our expertise today.';
-			break;
-		case 'Marketing':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][1]['default'] = true;
-			$slogan = 'LET US EXPAND YOUR HORIZONS';
-			$tagline = 'Are you ready to make a change? We\'re waiting for you. As a company that prides itself in meeting customer marketing needs, we can ensure that you get what you\'re looking for quickly and for a great price. Don\'t delay getting what you need from a company that cares about its customers.';
-			break;
-		case 'Property Management':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][4]['default'] = true;
-			$slogan = 'LET US EXPAND YOUR HORIZONS';
-			$tagline = 'Are you ready to make a change? We\'re waiting for you. As a company that prides itself in meeting customer marketing needs, we can ensure that you get what you\'re looking for quickly and for a great price. Don\'t delay getting what you need from a company that cares about its customers.';
-			break;
-		case 'Real Estate':
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][4]['default'] = true;
-			$slogan = 'WE GO BEYOND THE SALE TO GIVE YOU A LASTING SERVICE';
-			$tagline = 'It\'s our belief that a realtor\'s work is never quite done. We maintain our projects for several years after closings to ensure that your new home is everything you\'d expect. Your long-lasting satisfaction is always our end-goal.';
-			break;
-
-		// Default Behavior.
-		default:
-			$boldgrid_framework_configs['customizer-options']['colors']['defaults'][0]['default'] = true;
-			$slogan = 'LET US EXPAND YOUR HORIZONS';
-			$tagline = 'Are you ready to make a change? We\'re waiting for you. As a company that prides itself in meeting customer marketing needs, we can ensure that you get what you\'re looking for quickly and for a great price. Don\'t delay getting what you need from a company that cares about its customers.';
-			break;
-	}
 
 	// Text Contrast Colors.
 	$boldgrid_framework_configs['customizer-options']['colors']['light_text'] = '#ffffff';
@@ -175,16 +122,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Footer Left';
 	$boldgrid_framework_configs['menu']['footer_menus'][] = 'tertiary';
 
-
-
-	// Widget 2.
-	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
-		'title' => 'Call To Action',
-		'text' => $widget_markup['call-to-action'],
-		'type' => 'visual',
-		'filter' => 1,
-		'label' => 'black-studio-tinymce',
-	);
 
 	// Name Widget Areas.
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Above Site Title';
