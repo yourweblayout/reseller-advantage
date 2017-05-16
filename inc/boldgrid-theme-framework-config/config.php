@@ -2,7 +2,7 @@
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Text Domain.
-	$boldgrid_framework_configs['theme_name'] = 'boldgrid-wedge';
+	$boldgrid_framework_configs['theme_name'] = 'boldgrid-reseller';
 
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
