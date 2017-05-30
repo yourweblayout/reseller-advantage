@@ -5,6 +5,50 @@
 <div class="col-xs-10 col-sm-8 col-md-8">[resellerdomainsearch width="400"]</div>
 </div>
 </div>
+
+<!-- Reseller Advantage Hosting Section ->
+<div id="hosting" class="container-fluid hosting-section boldgrid-section">
+<div class="container">
+<div class="row">
+<div class="col-xs-1 col-sm-2 col-md-4"></div>
+<div class="col-xs-10 col-sm-8 col-md-4">
+<h2 class="text-center">Hosting Products</h2>
+<div class="row">
+<div class="col-md-12 col-xs-12 col-sm-12">
+
+<hr>
+
+</div>
+</div>
+</div>
+<div class="col-xs-1 col-sm-2 col-md-3"></div>
+</div>
+<div class="row">
+<div class="col-xs-1 col-sm-2 col-md-1 col-lg-2"></div>
+<div class="col-xs-10 col-sm-8 col-md-10 col-lg-8">
+<p class="reseller-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non commodo ipsum, et volutpat justo. Ut nec nulla lacinia, pretium tellus et, sollicitudin dui. Etiam feugiat sit amet orci quis volutpat. Integer auctor ipsum eget turpis consectetur, laoreet auctor ipsum consectetur. Aenean sit amet rhoncus purus, et dictum mi. </p>
+
+<div class="row">
+<div class="col-sm-6">
+<ul>
+<li>Hosting Product Name 1</li>
+<li>Hosting Product Name 2</li>
+</ul>
+</div>
+<div class="col-sm-6">
+<div class="hosting-button">
+<a href="" target="_blank">Buy Hosting Now</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+<!-- End Reseller Advantage Hosting Section -->
+
 <div id="about" class="container-fluid background-secondary boldgrid-section">
 <div class="gradientbg boldgrid-section">
 <div class="container">
