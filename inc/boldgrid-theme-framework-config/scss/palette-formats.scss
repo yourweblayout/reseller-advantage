@@ -105,8 +105,12 @@
 	.site-header,
 	.dropdown-menu,
 	#tertiary-menu,
-	.page-template-page_home .entry-footer {
-		background-color: $palette-primary_2;
+	.page-template-page_home .entry-footer,
+    .button-blue:hover,
+    .button-blue:focus,
+    #nf-field-1 input[type="text"],
+    .field-wrap > div input {
+		background-color: $palette-primary_2 !important;
 	}
 	.mod-alpha h3,
 	.slogan,
@@ -121,7 +125,8 @@
 	p.buttons a.button:hover,
 	#respond input#submit:hover,
 	#respond input#submit.alt:hover,
-	.comments-area .comment-content p {
+	.comments-area .comment-content p,
+    .boldgrid-attribution-link a:hover, .wordpress-attribution-link a:hover, .reseller-attribution-link a:hover{
 		color: $palette-primary_2;
 	}
 	header,
@@ -183,10 +188,14 @@
 	.link-primary:hover,
 	.link-primary:focus,
 	.link-secondary:hover,
-	.link-secondary:focus {
+	.link-secondary:focus,
+    .boldgrid-attribution-link,
+    .wordpress-attribution-link,
+    .reseller-attribution-link{
 		color: $palette-primary_3;
 	}
-	.widget-area {
+	.widget-area,
+    .reseller-domainsearch-input {
 		border: 1px solid $palette-primary_3;
 	}
 
@@ -209,7 +218,7 @@
 	.call-to-action .button-primary {
 		border: none;
 	}
-	.call-to-action hr {
+	hr {
 		background: $palette-primary_4;
 	}
 	.call-to-action .button-primary:hover,
@@ -221,6 +230,12 @@
 	.mod-beta {
 		color: $text-contrast-palette-primary_4;
 	}
+    .palette-primary .navbar-default .navbar-nav > li > a:hover, .palette-primary .navbar-default .navbar-nav > li > a:focus, .palette-primary .navbar-default .navbar-nav > .active > a, .palette-primary .navbar-default .navbar-nav > .active > a:hover, .palette-primary .navbar-default .navbar-nav > .active > a:focus, .palette-primary .navbar-default .navbar-nav > .open > a, .palette-primary .navbar-default .navbar-nav > .open > a:hover, .palette-primary .navbar-default .navbar-nav > .open > a:focus, .palette-primary .navbar-default .navbar-nav > .current-menu-parent > a {
+    border-bottom:  3px solid $palette-primary_4;
+    }
+    .boldgrid-attribution-link a, .wordpress-attribution-link a, .reseller-attribution-link a {
+        color: $palette-primary_4;
+    }
 	
 	/*-----------------------------------------------
 	## Button Hover
@@ -385,10 +400,10 @@
 		background-color: $palette-primary_1;
 	}
 	.icon-section h3,
-	.home input[type=text],
 	.textarea-wrap textarea,
 	.whmpress button,
-	.whmpress button:hover {
+	.whmpress button:hover,
+	input[type="email" i] {
 		color: $palette-primary-neutral-color;
 		background-color: $palette-primary_2 !important;
 	}
@@ -410,3 +425,9 @@
 	.entry-title:first-letter {
 		color: $palette-primary_5;
 	}
+
+    .palette-primary .button-primary, .palette-primary input[type="submit"]{
+    border: 2px solid $palette-primary_5;
+    background: $palette-primary_1;
+    color: $palette-primary_5;
+}
