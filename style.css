@@ -719,6 +719,24 @@ input[type="email" i] {
 .home h2:not( .alt-font ) {
     font-size: 36px;
 }
+.hosting-section,
+.hosting-section h2,
+.hosting-button,
+.hosting-button a {
+    color: #fff !important;
+}
+.hosting-section {
+    margin-bottom: -20px;
+}
+.hosting-button {
+    border: 2px solid #fff;
+    line-height: 16px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    width: 160px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 @media (min-width: 768px) {
 	.background-secondary {
