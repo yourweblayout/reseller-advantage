@@ -719,19 +719,12 @@ input[type="email" i] {
 .home h2:not( .alt-font ) {
     font-size: 36px;
 }
-.hosting-section,
-.hosting-section h2,
-.hosting-button,
-.hosting-button a {
-    color: #fff !important;
-}
-.hosting-section {
-    margin-bottom: -20px;
-}
+
+
 .hosting-button {
-    border: 2px solid #fff;
+    border: 2px solid #000;
     line-height: 16px;
-    margin: 0 auto;
+    margin: 5px auto 0;
     padding: 10px 5px;
     width: 160px;
     text-align: center;
@@ -749,7 +742,7 @@ input[type="email" i] {
 		margin-top: 40px;
 	}
 	/* Icon Row */
-	.fa {
+	.home .fa {
 		font-size: 83px;
 	}
 	.icon-flex {
@@ -806,7 +799,7 @@ input[type="email" i] {
 	.container {
 		width: 750px;
 	}
-	.fa {
+	.home .fa {
 		font-size: 85px;
 	}
 	.icon-section {
@@ -830,7 +823,7 @@ input[type="email" i] {
 	.container {
 		width: 960px;
 	}
-	.fa {
+	.home .fa {
 		font-size: 112px;
 	}
 	.icon-section {
