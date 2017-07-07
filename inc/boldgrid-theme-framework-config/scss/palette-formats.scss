@@ -1,7 +1,8 @@
 /*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
-.palette-primary {
+.palette-primary,
+.hosting-section {
 	color: $text-contrast-palette-primary-neutral-color;
 
 	/*-----------------------------------------------
@@ -180,7 +181,8 @@
 		color: $text-contrast-palette-primary_3;
 	}
 	.mod-alpha,
-	.background-secondary h2 {
+	.background-secondary h2,
+    .hosting-section h2 {
 		color: $palette-primary_3;
 	}
 	a:hover,
