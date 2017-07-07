@@ -11,6 +11,7 @@
 <div class="col-md-12 col-xs-12 col-sm-12">
 
 <!-- Reseller Advantage Hosting Section ->
+<div class="hosting-section">
 <div id="hosting" class="container-fluid hosting-section boldgrid-section">
 <div class="container">
 <div class="row">
@@ -41,7 +42,8 @@
 </div>
 <div class="col-sm-6">
 <div class="hosting-button">
-<a href="" target="_blank">Buy Hosting Now</a></div>
+<a href="account/cart.php?a=view" target="_blank">Buy Hosting Now</a></div>
+</div>
 </div>
 </div>
 </div>
