@@ -1,8 +1,7 @@
 /*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
-.palette-primary,
-.hosting-section {
+.palette-primary {
 	color: $text-contrast-palette-primary-neutral-color;
 
 	/*-----------------------------------------------
@@ -44,8 +43,7 @@
 	.pure-button:active,
 	.pure-button:focus,
 	.reseller-domainsearch:focus,
-	.reseller-domainsearch:active
-	{
+	.reseller-domainsearch:active {
 		background: $palette-primary_3;
 	}
 	a.button,
@@ -107,10 +105,10 @@
 	.dropdown-menu,
 	#tertiary-menu,
 	.page-template-page_home .entry-footer,
-    .button-blue:hover,
-    .button-blue:focus,
-    #nf-field-1 input[type="text"],
-    .field-wrap > div input {
+	.button-blue:hover,
+	.button-blue:focus,
+	#nf-field-1 input[type="text"],
+	.field-wrap > div input {
 		background-color: $palette-primary_2 !important;
 	}
 	.mod-alpha h3,
@@ -127,7 +125,9 @@
 	#respond input#submit:hover,
 	#respond input#submit.alt:hover,
 	.comments-area .comment-content p,
-    .boldgrid-attribution-link a:hover, .wordpress-attribution-link a:hover, .reseller-attribution-link a:hover{
+	.boldgrid-attribution-link a:hover, 
+	.wordpress-attribution-link a:hover, 
+	.reseller-attribution-link a:hover {
 		color: $palette-primary_2;
 	}
 	header,
@@ -181,8 +181,7 @@
 		color: $text-contrast-palette-primary_3;
 	}
 	.mod-alpha,
-	.background-secondary h2,
-    .hosting-section h2 {
+	.background-secondary h2 {
 		color: $palette-primary_3;
 	}
 	a:hover,
@@ -191,13 +190,13 @@
 	.link-primary:focus,
 	.link-secondary:hover,
 	.link-secondary:focus,
-    .boldgrid-attribution-link,
-    .wordpress-attribution-link,
-    .reseller-attribution-link{
+	.boldgrid-attribution-link,
+	.wordpress-attribution-link,
+	.reseller-attribution-link {
 		color: $palette-primary_3;
 	}
 	.widget-area,
-    .reseller-domainsearch-input {
+	.reseller-domainsearch-input {
 		border: 1px solid $palette-primary_3;
 	}
 
@@ -232,12 +231,22 @@
 	.mod-beta {
 		color: $text-contrast-palette-primary_4;
 	}
-    .palette-primary .navbar-default .navbar-nav > li > a:hover, .palette-primary .navbar-default .navbar-nav > li > a:focus, .palette-primary .navbar-default .navbar-nav > .active > a, .palette-primary .navbar-default .navbar-nav > .active > a:hover, .palette-primary .navbar-default .navbar-nav > .active > a:focus, .palette-primary .navbar-default .navbar-nav > .open > a, .palette-primary .navbar-default .navbar-nav > .open > a:hover, .palette-primary .navbar-default .navbar-nav > .open > a:focus, .palette-primary .navbar-default .navbar-nav > .current-menu-parent > a {
-    border-bottom:  3px solid $palette-primary_4;
-    }
-    .boldgrid-attribution-link a, .wordpress-attribution-link a, .reseller-attribution-link a {
-        color: $palette-primary_4;
-    }
+	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:focus, 
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus, 
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:hover, 
+	.navbar-default .navbar-nav > .open > a:focus, 
+	.navbar-default .navbar-nav > .current-menu-parent > a {
+		border-bottom:  3px solid $palette-primary_4;
+	}
+	.boldgrid-attribution-link a, 
+	.wordpress-attribution-link a, 
+	.reseller-attribution-link a {
+				color: $palette-primary_4;
+	}
 	
 	/*-----------------------------------------------
 	## Button Hover
@@ -270,10 +279,10 @@
 	.mod-beta-1::before {
 		border-bottom: 20px solid $palette-primary-neutral-color;
 	}
-	.home h1,
-	.home h1 a,
-	.home h2,
-	.home h3,
+	&.home h1,
+	&.home h1 a,
+	&.home h2,
+	&.home h3,
 	h4,
 	h5,
 	h6,
@@ -354,28 +363,13 @@
 		.call-to-action-wrapper {
 			background: none;
 		}
-	}
-	&.error404 {
-		.site-content {
-			background: $palette-primary-neutral-color;
-			color: $text-contrast-palette-primary-neutral-color;
+		&.error404 {
+			.site-content {
+				background: $palette-primary-neutral-color;
+				color: $text-contrast-palette-primary-neutral-color;
+			}
 		}
 	}
-}
-
-/*------------------------------------------------------------------------
-# Additional Body Classes
-------------------------------------------------------------------------*/
-.page-template-page_home.palette-primary .entry-footer {
-	background-color: $palette-primary_1;
-}
-.disabled-footer .site-footer {
-	background-color: $palette-primary-neutral-color;
-}
-.palette-primary.mce-content-body,
-.palette-primary.mce-content-body .background-primary {
-	background-color: $palette-primary-neutral-color;
-}
 
 	/*-----------------------------------------------
 	## Custom Reseller
@@ -405,7 +399,7 @@
 	.textarea-wrap textarea,
 	.whmpress button,
 	.whmpress button:hover,
-	input[type="email" i] {
+	input[type="email"] {
 		color: $palette-primary-neutral-color;
 		background-color: $palette-primary_2 !important;
 	}
@@ -428,8 +422,22 @@
 		color: $palette-primary_5;
 	}
 
-    .palette-primary .button-primary, .palette-primary input[type="submit"]{
-    border: 2px solid $palette-primary_5;
-    background: $palette-primary_1;
-    color: $palette-primary_5;
+	.button-primary, .palette-primary input[type="submit"] {
+		border: 2px solid $palette-primary_5;
+		background: $palette-primary_1;
+		color: $palette-primary_5;
+	}
+}
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
+.page-template-page_home.palette-primary .entry-footer {
+	background-color: $palette-primary_1;
+}
+.palette-primary.disabled-footer .site-footer {
+	background-color: $palette-primary-neutral-color;
+}
+.palette-primary.mce-content-body,
+.palette-primary.mce-content-body .background-primary {
+	background-color: $palette-primary-neutral-color;
 }
