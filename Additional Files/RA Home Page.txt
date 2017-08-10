@@ -76,7 +76,7 @@
 <div class="row">
 <div class="col-xs-1 col-sm-2 col-md-1 col-lg-2"></div>
 <div class="col-xs-10 col-sm-8 col-md-10 col-lg-8">
-<p class="reseller-text">Reseller Advantage allows you to quickly and easily register your new domain. A domain is the first impression of your website. Act now to ensure no one else registers your perfect domain before you get the chance!</p>
+<p class="reseller-text">We allow you to quickly and easily register your new domain. A domain is the first impression of your website. Act now to ensure no one else registers your perfect domain before you get the chance!</p>
 
 </div>
 </div>
